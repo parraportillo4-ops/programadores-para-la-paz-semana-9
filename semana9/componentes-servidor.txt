@@ -1,0 +1,24 @@
+Explica brevemente qué función cumple cada uno:
+
+Sistema operativo: es la base que gestiona los recursos del hardware
+(memoria, CPU, red), permite que Node.js y la aplicación se ejecuten,
+administra los procesos, los permisos y la comunicación entre el
+software y el servidor físico.
+
+Node.js: el entorno de ejecución que interpreta, corre el código 
+JavaScript de server.js del lado del servidor, proporciona las
+bibliotecas y herramientas necesarias para manejar peticiones HTTP,
+trabajar con archivos y gestionar la asincronía.
+
+Aplicación server.js: archivo que contiene la lógica específica de la
+API comunitaria, define las rutas (como /estado), procesa las
+solicitudes entrantes y genera las respuestas en formato JSON u otros.
+
+Puerto: es el número que identifica la puerta de entrada por donde el
+servidor recibe las conexiones de los clientes. Permite que múltiples
+servicios coexistan en la misma máquina, cada uno en su propio puerto.
+
+Logs: son los registros que va dejando la aplicación sobre lo que 
+ocurre (peticiones recibidas, errores, advertencias). Sirven para 
+monitorear el estado del servidor, depurar fallos y auditar la 
+actividad de la plataforma.
